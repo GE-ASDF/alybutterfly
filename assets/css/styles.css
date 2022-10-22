@@ -1,0 +1,55 @@
+@import "global/global.css";
+
+h1{
+    color:#909090;
+    font-weight: 900;
+}
+
+.languages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    margin:0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+label, span{
+    color:rgb(216, 210, 210);
+}
+body{
+    background-color: #232323;
+}
+#form-language{
+    display: flex;
+}
+.lang, label{
+    cursor: pointer;
+}
+label{
+    display: inline-block;
+
+    padding: 10px;
+}
+
+.lang:hover{
+    background-color: #909090;
+    transition: all 0.3s ease-in-out;
+}
+
+#form-language .lang{
+    display: inline-block;
+}
+
+input[type="radio"]{
+    display: none;
+}
+#resultado span{
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
